@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Website</title>
+<meta name="language" content="English"/>
+<meta name="description" content="It is a website about Bangladesh"/>
+<meta name="keywords" content="sports,software design,website design"/>
+<meta name="author" content="Rezaul Karim"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="style.css"></link>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+$(window).load(function() {
+	$('#slider').nivoSlider({
+		effect:'random',
+		slices:15,
+		animSpeed:500,
+		pauseTime:5000,
+		startSlide:0, //Set starting Slide (0 index)
+		directionNav:false,
+		directionNavHide:false, //Only show on hover
+		controlNav:false, //1,2,3...
+		controlNavThumbs:false, //Use thumbnails for Control Nav
+		pauseOnHover:true, //Stop animation while hovering
+		manualAdvance:false, //Force manual transitions
+		captionOpacity:0.8, //Universal caption opacity
+		beforeChange: function(){},
+		afterChange: function(){},
+		slideshowEnd: function(){} //Triggers after all slides have been shown
+	});
+});
+</script>
+</head>
+<body>
+    <div class="Headersection templete clear">
+	     <div class="logo">
+		    <img src="images/logo.png" alt="logo"/>
+			<h2>Website title</h2>
+			<p>Our Website Description</p>
+		 </div>
+	     <div class="social">
+		    <a href="http://www.facebook.com"><i class="fab fa-facebook"></i></a>
+		    <a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
+		    <a href="http://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+		    <a href="http://www.google.com"><i class="fab fa-google-plus-square"></i></a>
+		 </div>
+	</div>
+    <div class="Navigationsection templete">
+	    <ul>
+		    <li><a id="active" href="index.html">Home</a></li>
+		    <li><a href="about.html">About</a></li>
+		    <li><a href="#">Product</a>
+			    <ul>
+					   <li><a href="#">Product one</a></li>
+					   <li><a href="#">Product two</a></li>
+					   <li><a href="#">Product three</a></li>
+					   <li><a href="#">Product four</a></li>
+					   <li><a href="#">Product five</a></li>
+					   <li><a href="#">Product six</a></li>
+				</ul>
+			</li>
+		    <li><a href="contuct.html">Contuct</a>
+			    <ul>
+					   <li><a href="#">Contuct one</a></li>
+					   <li><a href="#">Contuct two</a></li>
+					   <li><a href="#">Contuct three</a></li>
+					   <li><a href="#">Contuct four</a></li>
+					   <li><a href="#">Contuct five</a></li>
+					   <li><a href="#">Contuct six</a></li>
+				</ul>
+			</li>
+		    <li><a href="#">Privacy</a></li>
+		    <li><a href="#">Sports</a></li>
+		</ul>
+	</div>
+	<div class="slidersection templete clear">
+	        <div id="slider">
+                <a href="#"><img src="images/slideshow/01.jpg" alt="Image 01" title="This is slider one title or description"/></a>
+                <a href="#"><img src="images/slideshow/02.jpg" alt="Image 02" title="This is slider two title or description"/></a>
+                <a href="#"><img src="images/slideshow/03.jpg" alt="Image 03" title="This is slider three title or description"/></a>
+                <a href="#"><img src="images/slideshow/04.jpg" alt="Image 04" title="This is slider four title or description"/></a>
+                <a href="#"><img src="images/slideshow/05.jpg" alt="Image 05" title="This is slider five title or description"/></a>
+            </div>
+	</div>
+    <div class="contentsection contemplete clear">
+         <div class="maincontentsection clear">
+		    <div class="samepost clear">
+					<h2>our post title here</h2>
+					 <a href="post.html"><img src="images/beauty.png" alt="post images"/></a>
+						 <p>
+						 some text will be go here. some text will be go here. some text will be go here.
+						 some text will be go here. some text will be go here. some text will be go here.some text will be go here.some text will be go here. some text will be go here.some text will be go here. some text will be go here. some text will be go here.
+						 some text will be go here. some text will be go here. some text will be go here.some text will be go here.some text will be go here. some text will be go here.some text will be go here. some text will be go here. some text will be go here.
+						 some text will be go here. some text will be go here. some text will be go here.some text will be go here.some text will be go here. some text will be go here.
+						 </p>
+						 <div class="readmore clear">
+						      <a href="post.html">Read more</a>
+						 </div>
+		    </div>
+					    <div class="samepost clear">
+					<h2>our post title here</h2>
+					<a href="post.html"><img src="images/friends.jpg" alt="post images"/></a>
+						 <p>
+						 some text will be go here. some text will be go here. some text will be go here.
+						 some text will be go here. some text will be go here. some text will be go here.some text will be go here.some text will be go here. some text will be go here.some text will be go here. some text will be go here. some text will be go here.
+						 some text will be go here. some text will be go here. some text will be go here.some text will be go here.some text will be go here. some text will be go here.some text will be go here. some text will be go here. some text will be go here.
+						 some text will be go here. some text will be go here. some text will be go here.some text will be go here.some text will be go here. some text will be go here.
+						 </p>
+						 <div class="readmore clear">
+						      <a href="post.html">Read more</a>
+						 </div>
+		    </div>
+					    <div class="samepost clear">
+					<h2>our post title here</h2>
+					<a href="post.html"><img src="images/beauty.png" alt="post images"/></a>
+						 <p>
+						 some text will be go here. some text will be go here. some text will be go here.
+						 some text will be go here. some text will be go here. some text will be go here.some text will be go here.some text will be go here. some text will be go here.some text will be go here. some text will be go here. some text will be go here.
+						 some text will be go here. some text will be go here. some text will be go here.some text will be go here.some text will be go here. some text will be go here.some text will be go here. some text will be go here. some text will be go here.
+						 some text will be go here. some text will be go here. some text will be go here.some text will be go here.some text will be go here. some text will be go here.
+						 </p>
+						 <div class="readmore clear">
+						      <a href="post.html">Read more</a>
+						 </div>
+		    </div>
+		 </div>
+
+         <div class="sidebar clear">
+		        <div class="samesidebar clear">
+		             <h2>Latest articles</h2>
+						<ul>
+							<li><a href="post.html">Post title one will be go here</a></li>
+							<li><a href="post.html">Post title two will be go here</a></li>
+							<li><a href="post.html">Post title three will be go here</a></li>
+							<li><a href="post.html">Post title four will be go here</a></li>
+							<li><a href="post.html">Post title five will be go here</a></li>
+							<li><a href="post.html">Post title six will be go here</a></li>	
+						</ul>
+		        </div>
+				<div class="samesidebar clear">
+		                <h2>Popular articles</h2>
+							<div class="popular clear">
+									<h3><a href="#">Post title will be go here...</a></h3>
+									<a href="#"><img src="images/popular.jpg" alt="post image"/></a>
+									<p>
+									sidebar is here! sidebar is here! sidebar is here! sidebar is here! sidebar is here! sidebar is here!sidebar is here!
+									</p>
+									<h3><a href="#">Post title will be go here...</a></h3>
+									<a href="#"><img src="images/popular.jpg" alt="post image"/></a>
+									<p>
+									sidebar is here! sidebar is here! sidebar is here! sidebar is here! sidebar is here! sidebar is here!sidebar is here!
+									</p>
+									<h3><a href="#">Post title will be go here...</a></h3>
+									<a href="#"><img src="images/popular.jpg" alt="post image"/></a>
+									<p>
+									sidebar is here! sidebar is here! sidebar is here! sidebar is here! sidebar is here! sidebar is here!sidebar is here!
+									</p>
+									<h3><a href="#">Post title will be go here...</a></h3>
+									<a href="#"><img src="images/popular.jpg" alt="post image"/></a>
+									<p>
+									sidebar is here! sidebar is here! sidebar is here! sidebar is here! sidebar is here! sidebar is here!sidebar is here!
+									</p>
+									<h3><a href="#">Post title will be go here...</a></h3>
+									<a href="#"><img src="images/popular.jpg" alt="post image"/></a>
+									<p>
+									sidebar is here! sidebar is here! sidebar is here! sidebar is here! sidebar is here! sidebar is here!sidebar is here!
+									</p>
+							</div>
+				
+		        </div>
+
+		 </div>
+		 </div>
+		 
+		    <div class="Footer templete clear">
+		      <div class="footermenu clear">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contuct</a></li>
+					<li><a href="#">Privacy</a></li>
+					<li><a href="#">Sports</a></li>
+				</ul>
+			  </div>
+			  <p>@copy; copyright myweb project</p>
+		    </div>
+			<div class="fixedicon clear">
+				<a href="http://www.facebook.com"><img src="images/fb.png" alt="facebook"/></a>
+				<a href="http://www.twitter.com"><img src="images/twitter.png" alt="twitter"/></a>
+				<a href="http://www.linkedin.com"><img src="images/ln.png" alt="linkedin"/></a>
+				<a href="http://www.googleplus.com"><img src="images/googleplus.png" alt="googleplus"/></a>
+			</div>
+	<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		  ga('create', 'UA-xxxxxxxx-x', 'xxxxxx.com');
+		  ga('send', 'pageview');
+	</script>
+<script type="text/javascript" src="js/scrolltotop.js"></script>
+
+
+</body>
+
+</html>
